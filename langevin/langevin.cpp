@@ -18,7 +18,7 @@ double dammi_rumore_bianco(const double min, const double max)
 
 double Vprimo(const double x)
 {
-	return x;	// sostituire con un V' corretto
+	return 2*x;	// sostituire con un V' corretto
 }
 
 void evo(double * x, const double dt, const double gamma, const double epsilon)
